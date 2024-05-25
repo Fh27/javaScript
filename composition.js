@@ -12,6 +12,7 @@ function composite(f1,f2){
     }
 }
 
+
 function compositeall (...fns){
     return function(...values){
        return fns.reduce((a,b)=> b(a),values)
