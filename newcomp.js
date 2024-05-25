@@ -1,6 +1,7 @@
 function add(a,b){
     return a+b;
 }
+
 function multiply(args){
     return args[0]*args[1]
 }
